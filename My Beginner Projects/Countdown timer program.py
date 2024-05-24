@@ -8,7 +8,7 @@ for t in range (my_time,0,-1): #Reversed range
 
     hrs = (t/360)%60 # t converted to hours and modulo applied to get remainder
 
-    print(f'{int(hrs):02}:{int(mins):02}:{int(secs):02}') # introduced 0 padding
+    print(f'{int(hrs):02}:{int(mins):02}:{int(secs):02}') # introduced 0 padding to enhanace appearance
     
     time.sleep(1)
 print('Time\'s is up')
